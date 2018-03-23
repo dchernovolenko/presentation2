@@ -1,0 +1,6 @@
+
+{% extends "loginbase.html" %}
+{% block content1 %}
+{% set messages = get_flashed_messages() %}
+	<h1>Welcome, {{messages[0]}}</h1>
+{% endblock %}
